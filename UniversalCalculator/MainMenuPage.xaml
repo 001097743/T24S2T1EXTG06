@@ -10,10 +10,10 @@
 
     <Grid>
         <TextBlock HorizontalAlignment="Center" Height="52" Margin="0,145,0,0" TextWrapping="Wrap" Text="Universal Calculator" VerticalAlignment="Top" Width="379" TextAlignment="Center" FontSize="24" FontFamily="Arial" FocusVisualPrimaryBrush="#FF594747" Foreground="Black"/>
-        <Button Content="Maths Calculator" Margin="0,221,0,0" VerticalAlignment="Top" Height="61" Width="250" FontSize="24" HorizontalAlignment="Center"/>
-        <Button Content="Mortgage Calculator" Margin="0,310,0,0" VerticalAlignment="Top" Height="60" Width="250" FontSize="24" HorizontalAlignment="Center"/>
+        <Button Content="Maths Calculator" Margin="0,221,0,0" VerticalAlignment="Top" Height="61" Width="250" FontSize="24" HorizontalAlignment="Center" Click="Button_Click_1"/>
+        <Button Content="Mortgage Calculator" Margin="0,310,0,0" VerticalAlignment="Top" Height="60" Width="250" FontSize="24" HorizontalAlignment="Center" Click="Button_Click"/>
         <Button Content="Currency Converter" Margin="0,398,0,0" VerticalAlignment="Top" Height="60" Width="250" FontSize="24" HorizontalAlignment="Center"/>
-        <Button Content="Exit" Margin="0,485,0,0" VerticalAlignment="Top" Height="60" Width="250" FontSize="24" HorizontalAlignment="Center"/>
+        <Button Content="Exit" Margin="0,485,0,0" VerticalAlignment="Top" Height="60" Width="250" FontSize="24" HorizontalAlignment="Center" Click="Button_Click_2"/>
         <Image HorizontalAlignment="Left" Height="61" Margin="342,67,0,0" VerticalAlignment="Top" Width="62" Source="Assets/abacus.PNG"/>
     </Grid>
 </Page>
