@@ -31,6 +31,7 @@ namespace Calculator
 		private void Button_Click(object sender, RoutedEventArgs e)
 		{
 			Frame.Navigate(typeof(MortgageCalculator));
+			// this step has been done before this section. use comments instead
 		}
 
 		private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -46,6 +47,7 @@ namespace Calculator
 		private void Button_Click_3(object sender, RoutedEventArgs e)
 		{
 			Frame.Navigate(typeof(CurrencyConversion));
+			// this step has been done before this section. use comments instead
 		}
 	}
 }
