@@ -42,5 +42,10 @@ namespace Calculator
 		{
 
 		}
+
+		private void Button_Click_3(object sender, RoutedEventArgs e)
+		{
+			Frame.Navigate(typeof(CurrencyConversion));
+		}
 	}
 }
